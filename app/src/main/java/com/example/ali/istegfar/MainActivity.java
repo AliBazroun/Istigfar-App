@@ -16,8 +16,8 @@ import android.widget.Toast;
 import android.os.Vibrator;
 
 public class MainActivity extends AppCompatActivity {
-    int count=100;
-    int i=0;
+    int count=100;          // the displayed number
+    int i=0;                // the iteration number
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    // To display exit confirmation pop up window
     @Override
     public void onBackPressed() {
         new AlertDialog.Builder(this)
@@ -83,11 +84,11 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         if (id == R.id.op5) {
-            dialog();
+            dialog();           // Add Istigfar pop up window
             return true;
         }
         if (id == R.id.op6) {
-            numberDialog();
+            numberDialog();     // edit the COUNT number
             return true;
         }
 
