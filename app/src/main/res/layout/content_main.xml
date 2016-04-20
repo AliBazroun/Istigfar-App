@@ -25,6 +25,9 @@
             android:layout_gravity="center"
             android:textSize="24sp"
             android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
             android:textColor="@android:color/black"
             android:textStyle="bold"
             android:text="أستغفر الله  ربي و أتوب إليه" />
@@ -34,7 +37,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="32dp"
             android:src="@drawable/btn_s"
             android:background="@null"
             android:onClick="count" />
