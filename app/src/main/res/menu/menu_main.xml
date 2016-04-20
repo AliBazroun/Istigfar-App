@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ali.istegfar.MainActivity">
+
+    <item
+        android:id="@+id/op1"
+        android:title="سبحان الله" />
+    <item
+        android:id="@+id/op2"
+        android:title=" الحمد لله"/>
+    <item
+        android:id="@+id/op3"
+        android:title="لا إله إلا الله"/>
+    <item
+        android:id="@+id/op4"
+        android:title="أستغفر الله ربي و أتوب إليه"/>
+
+    <item
+        android:id="@+id/op5"
+        android:title="اضافة استغفار"
+        android:icon="@android:drawable/ic_menu_add"/>
+    <item
+        android:id="@+id/op6"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="ضبط عدد الاسغفارات"/>
+</menu>

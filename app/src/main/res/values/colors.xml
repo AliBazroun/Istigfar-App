@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#189E33</color>
+    <color name="colorPrimaryDark">#49874A</color>      //Time color
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#21B879</color>
+    <color name="bg_green">#DCF7E2</color>
+
+</resources>
