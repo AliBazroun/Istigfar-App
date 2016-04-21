@@ -1,4 +1,4 @@
-package com.example.ali.istegfar;
+package app.eg.ali.istegfar;
 
 import android.app.AlertDialog;
 import android.content.Context;
